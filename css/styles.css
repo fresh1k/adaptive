@@ -303,13 +303,14 @@ ul {
 
 /* Phone */
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 375px) {
     #container {
-        max-width: 335px;
+        max-width: 100%;
     }
 
     .header .header-inner {
         min-height: 0;
+        max-width: 375px;
     }
 
     .logo-svg {
@@ -332,7 +333,7 @@ ul {
 		max-width: 375px;
     	min-height: 332px;
         justify-content: flex-start;
-        padding-bottom: 44px;
+        padding: 0 0 44px 20px;
 	}
 
     .menu-open .header-logo {
@@ -366,11 +367,11 @@ ul {
     }
 
     .first-block{
-        height: 276px;
+        min-height: 276px;
     }
 
     .second-block {
-        height: 356px;
+        min-height: 356px;
     }
 
     .year {
