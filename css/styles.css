@@ -106,6 +106,8 @@ ul {
     color: #fff;
 }
 
+/* Footer */
+
 .footer {
     margin-bottom: 100px;
 }
@@ -147,7 +149,10 @@ ul {
     font-size: 28px;
     text-transform: uppercase;
     color: #fff;
+    cursor: pointer;
 }
+
+/* Tablet */
 
 @media screen and (max-width: 1024px) {
 	#container {
@@ -159,6 +164,7 @@ ul {
 	}
 
 	/*Logo*/
+
 	.header .header-logo {
 		position: absolute;
 		left: 50%;
@@ -295,6 +301,111 @@ ul {
 
 }
 
-@media screen and (max-width: 375px) {
+/* Phone */
 
+@media screen and (max-width: 376px) {
+    #container {
+        max-width: 335px;
+    }
+
+    .header .header-inner {
+        min-height: 0;
+    }
+
+    .logo-svg {
+        display: none;
+    }
+
+    .burger-icon {
+        top: 20px;
+        right: 20px;
+    }
+
+    .burger-icon-inner,
+    .burger-icon::before,
+    .burger-icon::after {
+        background-color: #fff;
+        z-index: 2;
+    }
+
+    .menu-open .header-inner {
+		max-width: 375px;
+    	min-height: 332px;
+        justify-content: flex-start;
+        padding-bottom: 44px;
+	}
+
+    .menu-open .header-logo {
+        top: 20px;
+        left: 0;
+        margin-left: 20px;
+    }
+
+	.menu-open .logo-svg {
+        display: block;
+		fill: #fff;
+    }
+
+    .menu-open .nav-list {
+        height: 168px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .menu-open + .carousel {
+		margin-top: 0;
+    }
+
+    .header-text {
+        font-size: 18px;
+    }
+
+    .main-heading {
+        height: 56px;
+        font-size: 20px;
+    }
+
+    .first-block{
+        height: 276px;
+    }
+
+    .second-block {
+        height: 356px;
+    }
+
+    .year {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .main-text {
+        max-width: 295px;
+        font-size: 16px;
+        line-height: 19px;
+        color: #fff;
+    }
+
+    .footer {
+        margin-bottom: 100px;
+    }
+
+    .footer-heading {
+        height: 56px;
+        font-size: 20px;
+    }
+
+    .footer-form {
+        margin-top: 32px;
+    }
+    .textarea {
+        padding: 25px;
+        height: 150px;
+    }
+    .btn {
+        margin-top: 19px;
+        height: 60px;
+        width: 100%;
+        font-size: 24px;
+        position: static;
+    }
 }
