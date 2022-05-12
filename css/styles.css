@@ -43,6 +43,11 @@ ul {
 	text-decoration: none;
 }
 
+.nav-item-link:hover {
+    color: red;
+    transition: all 0.2s ease-in-out;
+}
+
 /*Burger */
 
 .burger-icon {
@@ -259,6 +264,7 @@ ul {
     }
 
     .header-text {
+        padding: 0 20px;
         font-size: 20px;
     }
 
@@ -310,7 +316,6 @@ ul {
 
     .header .header-inner {
         min-height: 0;
-        max-width: 375px;
     }
 
     .logo-svg {
@@ -361,6 +366,10 @@ ul {
         font-size: 18px;
     }
 
+    .main-inner {
+        padding: 0 20px;
+    }
+
     .main-heading {
         height: 56px;
         font-size: 20px;
@@ -388,6 +397,10 @@ ul {
 
     .footer {
         margin-bottom: 100px;
+    }
+
+    .footer-inner {
+        padding: 0 20px;
     }
 
     .footer-heading {
