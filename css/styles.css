@@ -44,7 +44,7 @@ ul {
 }
 
 .nav-item-link:hover {
-    color: red;
+    color: rgb(188,183,183);
     transition: all 0.2s ease-in-out;
 }
 
@@ -155,6 +155,11 @@ ul {
     text-transform: uppercase;
     color: #fff;
     cursor: pointer;
+}
+
+.btn:hover {
+    filter: drop-shadow(0 6px 6px #000000);
+    transition: all 0.3s ease-in-out;
 }
 
 /* Tablet */
