@@ -61,6 +61,10 @@ ul {
 	width: 100%;
 }
 
+.slick-dots li button:before{
+    font-size: 50px;
+}
+
 
 .header-text {
     width: 100%;
@@ -72,8 +76,7 @@ ul {
 
 .heading {
     margin-top: 40px;
-    padding-top: 16px;
-    height: 80px;
+    padding: 0 16px;
     border-top: 1px solid rgba(0,0,0, 1);
     border-bottom: 1px solid rgba(0,0,0, 1);
     font-size: 40px;
@@ -123,7 +126,7 @@ ul {
 }
 
 .textarea {
-    padding: 49px 0 31px 49px; 
+    padding: 49px 250px 31px 49px; 
     width: 100%;
     height: 120px;
     font-size: 18px;
@@ -141,6 +144,7 @@ ul {
     top: 30px;
     font-size: 28px;
     text-transform: uppercase;
+    border: none;
     color: #fff;
     cursor: pointer;
 }
