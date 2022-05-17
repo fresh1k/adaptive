@@ -70,7 +70,7 @@ ul {
 
 /* Main */
 
-.main-heading {
+.heading {
     margin-top: 40px;
     padding-top: 16px;
     height: 80px;
@@ -82,13 +82,13 @@ ul {
     text-transform: uppercase;
 }
 
-.main-blocks {
+.history-blocks {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.first-block, .second-block {
+.history-block {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,18 +115,6 @@ ul {
 
 .footer {
     margin-bottom: 100px;
-}
-
-.footer-heading {
-    margin-top: 60px;
-    padding-top: 16px;
-    height: 80px;
-    border-top: 1px solid rgba(0,0,0, 1);
-    border-bottom: 1px solid rgba(0,0,0, 1);
-    font-size: 40px;
-    font-weight: 400;
-    text-align: center;
-    text-transform: uppercase;
 }
 
 .footer-form {
@@ -273,19 +261,19 @@ ul {
         font-size: 20px;
     }
 
-    .main-heading {
+    .heading {
         height: 66px;
         font-size: 28px;
     }
 
-    .main-blocks {
+    .history-blocks {
         flex-direction: column;
     }
     
-    .first-block, .second-block {
+    .history-block {
         margin-top: 30px;
         width: 100%;
-        height: 258px;
+        height: 256px;
         background-color: #000;
     }
 
@@ -298,12 +286,6 @@ ul {
 
     .footer {
         margin-bottom: 80px;
-    }
-
-    .footer-heading {
-        margin-top: 32px;
-        height: 66px;
-        font-size: 28px;
     }
 
     .footer-form {
@@ -319,7 +301,11 @@ ul {
         max-width: 100%;
     }
 
-    .header .header-inner {
+    .header {
+        padding: 0 20px;
+    }
+
+    .header-inner {
         min-height: 0;
     }
 
@@ -371,26 +357,23 @@ ul {
         font-size: 18px;
     }
 
-    .main-inner {
+    .main {
         padding: 0 20px;
     }
 
-    .main-heading {
+    .heading {
         height: 56px;
         font-size: 20px;
     }
 
-    .first-block{
-        min-height: 276px;
-    }
-
-    .second-block {
-        min-height: 356px;
-    }
-
     .year {
+        display: block;
         font-size: 24px;
         line-height: 29px;
+    }
+
+    .history-block:nth-child(2){
+        height: 356px;
     }
 
     .main-text {
@@ -402,15 +385,7 @@ ul {
 
     .footer {
         margin-bottom: 100px;
-    }
-
-    .footer-inner {
         padding: 0 20px;
-    }
-
-    .footer-heading {
-        height: 56px;
-        font-size: 20px;
     }
 
     .footer-form {

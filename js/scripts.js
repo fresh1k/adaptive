@@ -17,4 +17,6 @@ burger.onclick = function() {
 }
 
 // counter
-$('.year').countUp();
+$('.year').countUp({
+    
+});
